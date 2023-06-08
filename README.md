@@ -2,9 +2,11 @@
 ![Untitled](https://github.com/HyunjungKim323/face-de_identification/assets/119280993/5bc31604-1def-4594-bbb3-14f00a9f322d)
 
 ### Head Detect
-Head Detection Model: https://github.com/deepakcrk/yolov5-crowdhuman
+- [Head Detection Model](https://github.com/deepakcrk/yolov5-crowdhuman)  
+
+  `python3 detect.py --weights crowdhuman_yolov5m.pt --source _test/ --view-img  --heads --save-txt --conf-thres=0.5`
+  - '--conf-thres', type=float, default=0.5, help='object confidence threshold' then FP 발생
   
-    python3 detect.py --weights crowdhuman_yolov5m.pt --source _test/ --view-img  --heads --
     
 
   
