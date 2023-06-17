@@ -4,8 +4,8 @@
 ### Head Detect
 - [Head Detection Model](https://github.com/deepakcrk/yolov5-crowdhuman)  
 
-  `python3 detect.py --weights crowdhuman_yolov5m.pt --source _test/ --view-img  --heads --save-txt --conf-thres=0.5`
-  - '--conf-thres', type=float, default=0.5, help='object confidence threshold' 
+  `python3 detect.py --weights crowdhuman_yolov5m.pt --source _test/ --heads --save-txt --conf-thres=0.5`
+
   
     
 
